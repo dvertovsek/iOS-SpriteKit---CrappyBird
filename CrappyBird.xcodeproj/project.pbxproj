@@ -16,6 +16,8 @@
 		E43FDDBE1D116DEC00FE8F0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E43FDDBC1D116DEC00FE8F0F /* LaunchScreen.storyboard */; };
 		E43FDDC91D116DED00FE8F0F /* CrappyBirdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43FDDC81D116DED00FE8F0F /* CrappyBirdTests.swift */; };
 		E43FDDD41D116DED00FE8F0F /* CrappyBirdUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43FDDD31D116DED00FE8F0F /* CrappyBirdUITests.swift */; };
+		E43FDDE21D11A15400FE8F0F /* RandomFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43FDDE11D11A15400FE8F0F /* RandomFunction.swift */; };
+		E43FDDE41D11B88000FE8F0F /* 04B_19__.TTF in Resources */ = {isa = PBXBuildFile; fileRef = E43FDDE31D11B88000FE8F0F /* 04B_19__.TTF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		E43FDDCF1D116DED00FE8F0F /* CrappyBirdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrappyBirdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E43FDDD31D116DED00FE8F0F /* CrappyBirdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrappyBirdUITests.swift; sourceTree = "<group>"; };
 		E43FDDD51D116DED00FE8F0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E43FDDE11D11A15400FE8F0F /* RandomFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomFunction.swift; sourceTree = "<group>"; };
+		E43FDDE31D11B88000FE8F0F /* 04B_19__.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = 04B_19__.TTF; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +105,11 @@
 		E43FDDAE1D116DEC00FE8F0F /* CrappyBird */ = {
 			isa = PBXGroup;
 			children = (
+				E43FDDE31D11B88000FE8F0F /* 04B_19__.TTF */,
 				E43FDDAF1D116DEC00FE8F0F /* AppDelegate.swift */,
 				E43FDDB11D116DEC00FE8F0F /* GameScene.sks */,
 				E43FDDB31D116DEC00FE8F0F /* GameScene.swift */,
+				E43FDDE11D11A15400FE8F0F /* RandomFunction.swift */,
 				E43FDDB51D116DEC00FE8F0F /* GameViewController.swift */,
 				E43FDDB71D116DEC00FE8F0F /* Main.storyboard */,
 				E43FDDBA1D116DEC00FE8F0F /* Assets.xcassets */,
@@ -237,6 +243,7 @@
 			files = (
 				E43FDDB21D116DEC00FE8F0F /* GameScene.sks in Resources */,
 				E43FDDBE1D116DEC00FE8F0F /* LaunchScreen.storyboard in Resources */,
+				E43FDDE41D11B88000FE8F0F /* 04B_19__.TTF in Resources */,
 				E43FDDBB1D116DEC00FE8F0F /* Assets.xcassets in Resources */,
 				E43FDDB91D116DEC00FE8F0F /* Main.storyboard in Resources */,
 			);
@@ -265,6 +272,7 @@
 			files = (
 				E43FDDB41D116DEC00FE8F0F /* GameScene.swift in Sources */,
 				E43FDDB61D116DEC00FE8F0F /* GameViewController.swift in Sources */,
+				E43FDDE21D11A15400FE8F0F /* RandomFunction.swift in Sources */,
 				E43FDDB01D116DEC00FE8F0F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
